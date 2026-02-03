@@ -1,0 +1,452 @@
+@media (max-width: 480px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    .navbar .logo {
+        margin-bottom: 10px;
+    }
+    
+    .navbar .logo h2 {
+        margin-left: 0;
+        font-size: 18px;
+    }
+    
+    .navbar ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    
+    .navbar li {
+        margin: 8px 0;
+        font-size: 14px;
+    }
+    
+    /* Main Content */
+    .main-text-box {
+        padding: 40px 10px;
+    }
+    
+    .text-box-1 {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+    .text-box-1 h1 {
+        font-size: 18px;
+    }
+    
+    .text-box-1 p {
+        font-size: 12px;
+        margin: 10px;
+    }
+    
+    /* Secondary Text Box */
+    .secondary-text-box {
+        flex-direction: column;
+        padding: 20px 10px;
+        justify-content: center;
+    }
+    
+    .box-1, .box-2, .box-3 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    
+    .box1-link, .box2-link, .box3-link {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+    }
+    
+    /* About Page */
+    .about-main-box {
+        min-height: auto;
+        padding: 40px 10px;
+    }
+    
+    .about-main-box-wrapper {
+        width: 100%;
+        padding: 15px;
+        border: none;
+    }
+    
+    .about-text-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-profile img {
+        height: 120px;
+        width: 120px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .about-information {
+        text-align: center;
+    }
+    
+    .about-information h1 {
+        font-size: 18px;
+    }
+    
+    .about-information p {
+        font-size: 12px;
+    }
+    
+    .about-text-bottom {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .about-text-bottom h1 {
+        font-size: 16px;
+    }
+    
+    .about-text-bottom p {
+        font-size: 12px;
+    }
+    
+    /* Photo Page */
+    .photo-main-box {
+        padding: 40px 10px;
+    }
+    
+    .photo-main-box h1 {
+        font-size: 20px;
+    }
+    
+    .photo-main-wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .week-photo-box h2 {
+        font-size: 16px;
+    }
+    
+    .photo-photo {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .photo-photo img {
+        width: 100%;
+        height: auto;
+        margin: 8px 0;
+        max-width: 300px;
+    }
+    
+    /* Experience Page */
+    .exp-main {
+        padding: 40px 10px;
+    }
+    
+    .exp-main h1 {
+        font-size: 20px;
+    }
+    
+    .exp-main-wrapper {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .exp-text-box-row1, .exp-text-box-row2, .exp-text-box-row3 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        font-size: 0.9rem;
+    }
+    
+    .exp-text-box-row1 h1, .exp-text-box-row2 h1, .exp-text-box-row3 h1 {
+        font-size: 16px;
+    }
+    
+    /* Footer */
+    .footer {
+        min-height: auto;
+        padding: 20px 10px;
+    }
+    
+    .footer-main {
+        flex-direction: column;
+        padding: 15px 10px;
+        justify-content: center;
+    }
+    
+    .footer-main-box1 {
+        margin-bottom: 20px;
+    }
+    
+    .footer-main-box1 p {
+        max-width: 100%;
+        font-size: 12px;
+    }
+    
+    .footer-main-box1 h3 {
+        font-size: 14px;
+    }
+    
+    .footer-main-box2 {
+        margin-right: 0;
+    }
+    
+    .footer-main-box2 h3 {
+        font-size: 14px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        padding: 12px;
+        align-items: center;
+    }
+    
+    .navbar .logo h2 {
+        margin-left: 0;
+    }
+    
+    .navbar ul {
+        flex-direction: row;
+        margin-right: 0;
+        justify-content: center;
+    }
+    
+    .navbar li {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+    
+    /* Main Content */
+    .main-text-box {
+        padding: 60px 20px;
+    }
+    
+    .text-box-1 {
+        width: 90%;
+        max-width: 700px;
+        height: auto;
+        font-size: 16px;
+    }
+    
+    .text-box-1 h1 {
+        font-size: 22px;
+    }
+    
+    .text-box-1 p {
+        font-size: 14px;
+    }
+    
+    /* Secondary Text Box */
+    .secondary-text-box {
+        flex-direction: row;
+        padding: 40px 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .box-1, .box-2, .box-3 {
+        width: 280px;
+        margin: 15px;
+    }
+    
+    /* About Page */
+    .about-main-box {
+        min-height: auto;
+        padding: 60px 20px;
+    }
+    
+    .about-main-box-wrapper {
+        width: 90%;
+        max-width: 800px;
+        padding: 30px;
+        height: auto;
+    }
+    
+    .about-text-top {
+        flex-direction: row;
+    }
+    
+    .about-profile img {
+        height: 150px;
+        width: 150px;
+        margin-right: 30px;
+    }
+    
+    .about-information h1 {
+        font-size: 20px;
+    }
+    
+    .about-text-bottom {
+        margin-left: 20px;
+    }
+    
+    /* Photo Page */
+    .photo-main-box {
+        padding: 60px 20px;
+    }
+    
+    .photo-main-wrapper {
+        width: 90%;
+        max-width: 1000px;
+    }
+    
+    .photo-photo {
+        flex-wrap: wrap;
+    }
+    
+    .photo-photo img {
+        width: 45%;
+        height: auto;
+        margin: 8px;
+    }
+    
+    /* Experience Page */
+    .exp-main {
+        padding: 60px 20px;
+    }
+    
+    .exp-main-wrapper {
+        width: 90%;
+        max-width: 1000px;
+    }
+    
+    .exp-text-box-row1, .exp-text-box-row2, .exp-text-box-row3 {
+        width: calc(50% - 15px);
+        margin: 10px;
+    }
+    
+    /* Footer */
+    .footer {
+        min-height: auto;
+    }
+    
+    .footer-main {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .footer-main-box1 {
+        margin-bottom: 20px;
+    }
+    
+    .footer-main-box2 {
+        margin-right: 0;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Navbar */
+    .navbar {
+        padding: 12px;
+    }
+    
+    .navbar .logo h2 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .navbar ul {
+        margin-right: 30px;
+    }
+    
+    .navbar li {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+    
+    /* Main Content */
+    .main-text-box {
+        padding: 80px 30px;
+    }
+    
+    .text-box-1 {
+        width: 90%;
+        max-width: 800px;
+        font-size: 18px;
+    }
+    
+    /* Secondary Text Box */
+    .secondary-text-box {
+        padding: 50px 30px;
+    }
+    
+    .box-1, .box-2, .box-3 {
+        width: 280px;
+        margin: 15px;
+    }
+    
+    /* About Page */
+    .about-main-box {
+        padding: 80px 30px;
+    }
+    
+    .about-main-box-wrapper {
+        width: 90%;
+        max-width: 900px;
+        padding: 30px;
+    }
+    
+    .about-profile img {
+        height: 180px;
+        width: 180px;
+    }
+    
+    /* Photo Page */
+    .photo-main-wrapper {
+        width: 95%;
+        max-width: 1100px;
+    }
+    
+    .photo-photo img {
+        height: 200px;
+        width: auto;
+        margin: 10px;
+    }
+    
+    /* Experience Page */
+    .exp-main-wrapper {
+        width: 95%;
+        max-width: 1100px;
+    }
+    
+    .exp-text-box-row1, .exp-text-box-row2, .exp-text-box-row3 {
+        width: calc(50% - 20px);
+    }
+    
+    /* Footer */
+    .footer-main {
+        padding: 0 30px;
+    }
+}
+@media (min-width: 1025px) {
+    .navbar {
+        padding: 15px;
+    }
+    
+    .text-box-1 {
+        width: 900px;
+    }
+    
+    .about-main-box-wrapper {
+        width: 1000px;
+    }
+    
+    .photo-main-wrapper {
+        width: 1300px;
+    }
+    
+    .exp-main-wrapper {
+        width: 1300px;
+    }
+}
