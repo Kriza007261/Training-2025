@@ -246,6 +246,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 1000px;
+    color: #fff;
     height: auto;
     border: #66b1fd solid 2px;
     border-radius: 25px;
@@ -406,4 +407,5 @@ body {
 
 .exp-text-box-row1:hover, .exp-text-box-row2:hover, .exp-text-box-row3:hover {
     transform: translateY(-20px);
+
 }
