@@ -246,7 +246,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 1000px;
-    color: #fff;
+    background-color: white;
     height: auto;
     border: #66b1fd solid 2px;
     border-radius: 25px;
@@ -409,3 +409,4 @@ body {
     transform: translateY(-20px);
 
 }
+
